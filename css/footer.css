@@ -1,0 +1,4 @@
+.footer{
+    background-color: rgb(134, 255, 215);
+    grid-column: 1 / -1;
+}

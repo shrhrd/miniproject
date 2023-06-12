@@ -1,0 +1,4 @@
+.gallery{
+    background-color: rgb(247, 6, 174);
+    grid-column: 1 / -1;
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS';
+}
+.container{
+    display: grid;
+    grid-template-rows: 115vh repeat(5, max-content);
+    grid-template-columns: repeat(6, 1fr);
+}
+.text-line{
+    text-align: center;
+    font-size: 30px;
+    color: orange;
+    padding: 10px;
+}
+.text-line:after,
+.text-line:before{
+    content: "";
+    position: relative;
+    width: 10%;
+    height: 2px;
+    background-color: black;
+    vertical-align: middle;
+    display: inline-block;
+}
+.text-line::before{
+    right: 1rem;
+}
+.text-line::after{
+    right: -1rem;
+}

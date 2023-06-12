@@ -1,0 +1,45 @@
+.Header{
+    background-color: green;
+    grid-column: 1 / -1;
+    background-image: linear-gradient(to bottom, #303030a8, #000000a8), url("../pic/header.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-rows: repeat(3 , min-content);
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.header3{
+    font-size: 25px;
+    color: white;
+}
+.header1{
+    color: white;
+}
+.header1 span{
+    color: orange;
+}
+.header-btn{
+    padding: 15px 16px;
+    background-color: orange;
+    color: white;
+    font-size: 30px;
+    border: 1px solid orange;
+    border-radius: 8px;
+    transition: all ease-out 0.4s;
+    cursor: pointer;
+    justify-self: center;
+}
+.header-btn:hover{
+    background-color: white;
+    color: orange;
+    border: 1px solid white;
+}
+@media only screen and(max-width: 768px){
+    .header{
+        background-position-x: 20%;
+    }
+
+}
